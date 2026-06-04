@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    background-color: #322E41;
+}
+
+.nav__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    padding: 23px 22px;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav__link:hover {
+    cursor: pointer;
+    color: #D47300;
+    transition: 0.5s;
+    background-color: #fff;
+    transform: translateY(10px);
+}
+
+.nav__link:active {
+    background-color: grey;
+    color: red;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-image: url(../Images/IntroBg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.intro__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.intro__text span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.nike__box {
+    display: flex;
+    gap: 30px;
+    transform: translateY(-37px);
+}
+
+.card__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 540px;
+    height: 467px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.right__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    color: #2C2A2A;
+}
+
+.right__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #9B9B9B;
+}
+
+.card__left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.left__item {
+    width: 255px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.left__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 6px;
+    color: #2C2A2A;
+}
+
+.left__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #9B9B9B;
+}
+
+.footer {
+    background-color: #322E41;
+    padding: 40px 0;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer__textarea,
+.footer__input {
+    border: none;
+    outline: none;
+    padding: 9px 0 9px 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 6px;
+}
+
+.footer__textarea::placeholder,
+.footer__input::placeholder {
+    color: #9B9B9B;
+}
+
+.footer__textarea {
+    resize: none;
+    height: 86px;
+}
+
+.footer__button {
+    background-color: #544294;
+    border: none;
+    padding: 9px 0;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer__info {
+    display: flex;
+    gap: 73px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer__link:hover {
+    color: #D47300;
+    transition: 0.5s;
+}
+
+.menu img {
+    width: 25px;
+    height: 25px;
+}
+
+#check,
+.close,
+.menu {
+    display: none;
+}

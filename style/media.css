@@ -1,0 +1,227 @@
+@media (max-width:1140px) {
+    .nike__box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card__left{
+        max-width: 1000px;
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .card__left::-webkit-scrollbar{
+        height: 0;
+    }
+    .left__item{
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .footer__box{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .intro__title {
+        font-size: 80px;
+    }
+
+    .intro {
+        height: 400px;
+    }
+
+
+    header {
+        overflow: hidden;
+    }
+
+    .nav__box {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav__list {
+        position: absolute;
+        transform: translateX(110%);
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        background-color: #322E41;
+        height: 100vh;
+        width: 300px;
+        z-index: 99;
+        transition: 0.5s;
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .close {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        display: block;
+    }
+
+    #check:checked+.nav__list {
+        transform: translate(0);
+        transition: 0.5s;
+    }
+
+    .nav {
+        padding: 15px 0;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:800px) {
+    .nike__box{
+        transform: none;
+        margin-top: 20px;
+    }
+    .nav {
+        padding: 5px 0;
+    }
+
+    .intro__title {
+        font-size: 60px;
+    }
+
+    .intro {
+        height: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer__box{
+        flex-wrap: nowrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .card__left{
+        gap: 10px;
+    }
+    .nike__box{
+        gap: 10px;
+    }
+    .card__right{
+        padding: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 400px;
+        height: 350px;
+    }
+    .left__title{
+        font-size: 18px;
+    }
+    .right__text{
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .right__img{
+        width: 380px;
+        height: 200px;
+    }
+    .nav {
+        padding: 3px 0;
+    }
+
+    .nav__img {
+        width: 70px;
+        height: 25px;
+    }
+
+    .intro__title {
+        font-size: 40px;
+    }
+
+    .intro__text {
+        font-size: 20px;
+    }
+
+    .intro__text span {
+        font-size: 20px;
+    }
+
+    .intro {
+        height: 280px;
+    }
+}
+
+@media (max-width:420px) {
+    .left__img{
+        width: 60px;
+        height: 60px;
+    }
+    .left__text{
+        font-size: 14px;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-y: scroll;
+
+    }
+    .card__left{
+        max-width: 320px;
+    }
+    .left__item{
+        width: 200px;
+        height: 170px;
+        padding: 8px;
+    }
+    .intro{
+        height: 200px;
+    }
+    .card__right{
+        max-width: 320px;
+        height: 280px;
+    }
+    .right__img{
+        width: 300px;
+        height: 150px;
+    }
+    .left__title{
+        font-size: 16px;
+    }
+    .right__text{
+        font-size: 14px;
+    }
+    .nav__img {
+        width: 40px;
+        height: 15px;
+    }
+
+    .menu img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .intro__title {
+        font-size: 25px;
+    }
+
+    .intro__text {
+        font-size: 15px;
+    }
+
+    .intro__text span {
+        font-size: 15px;
+    }
+}
